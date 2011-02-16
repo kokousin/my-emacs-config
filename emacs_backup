@@ -1,0 +1,4 @@
+(add-to-list 'load-path "/Users/guoxx/.emacs.d/config/emacs.el" "/Users/guoxx/.emacs.d/config/emacs.init")
+ 
+(load "/Users/guoxx/.emacs.d/el-get/el-get.el")
+(mapc 'load (directory-files "/Users/guoxx/.emacs.d/config/emacs.init" t "^[a-zA-Z0-9].*.el$"))
