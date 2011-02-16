@@ -17,6 +17,7 @@
 ;;		ipython
 		pymacs
 		python-mode
+        multi-term
     )
 )
 (el-get)

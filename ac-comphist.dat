@@ -1,5 +1,13 @@
-((("setq" .
-   [0 0 2 0])
+((("multi-term-dedicated-select-after-open-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("multi-term-dedicated-select" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("multi-term-de" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ses-mode" .
+   [0 0 1 0 0 0 0 0])
+  ("setq" .
+   [1 0 2 0])
   ("buildConnectionString" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("iter" .
