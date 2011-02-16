@@ -5,6 +5,6 @@
 
 (custom-set-variables
   '(term-default-bg-color "#000000")        ;; background color (black)
-  '(term-default-fg-color "#dddd00"))       ;; foreground color (yellow)
+  '(term-default-fg-color "#dd00dd"))       ;; foreground color (yellow)
 
 (setq multi-term-dedicated-select-after-open-p t)
