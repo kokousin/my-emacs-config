@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/el-get/pymacs/")
+(add-to-list 'load-path "/Users/guoxx/.emacs.d/el-get/pymacs/")
 (require 'pymacs)
 
 (autoload 'pymacs-apply "pymacs")
@@ -10,7 +10,7 @@
 ;;  '(add-to-list 'pymacs-load-path "~/.emacs.d/el-get/pymacs/"))
 (add-to-list 'pymacs-load-path "/Users/guoxx/.emacs.d/el-get/pymacs/contrib/")
 
-(add-to-list 'load-path "~/.emacs.d/el-get/python-mode/")
+(add-to-list 'load-path "/Users/guoxx/.emacs.d/el-get/python-mode/")
 (require 'python-mode)
 
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
