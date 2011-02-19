@@ -15,7 +15,6 @@
 (defun my-ac-cc-mode-setup ()
   (setq ac-sources (append '(ac-source-clang) ac-sources)))
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
-(my-ac-cc-mode-setup)
 
 (add-to-list 'load-path "~/.emacs.d/el-get/yasnippet")
 (require 'yasnippet)
@@ -25,3 +24,4 @@
 
 ;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/el-get/auto-complete-extension"))
 ;;(require 'auto-complete-extension)
+
