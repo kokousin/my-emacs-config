@@ -2,6 +2,9 @@
 (require 'color-theme)
 (color-theme-initialize)
 ;;(load-file "~/.emacs.d/el-get/color-theme-twilight/color-theme-twilight.el")
+(load-file "~/.emacs.d/el-get/color-theme-chocolate-rain/color-theme-chocolate-rain.el")
 
 ;;(color-theme-twilight)
-(color-theme-charcoal-blac)
+;;(color-theme-charcoal-black)
+;;(color-theme-tango-2)
+(color-theme-chocolate-rain)

@@ -1,4 +1,8 @@
-((("kill-the-string-before-current-point" .
+((("color-theme" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("color-theme-charcoal-black" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("kill-the-string-before-current-point" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("mark-set-to-ahead-of-line" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
@@ -231,4 +235,6 @@
   ("load" .
    [1 0 0 0])
   ("color-theme-is-global" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])))
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("color-theme-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))

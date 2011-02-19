@@ -11,7 +11,8 @@
 		auto-complete
 		auto-complete-clang
 		auto-complete-extension
-		color-theme-twilight
+;;		color-theme-twilight
+        color-theme-chocolate-rain
 		color-theme
 		yasnippet
 ;;		ipython
