@@ -1,224 +1,234 @@
-((("kill-the-string-before-current-point" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("mark-set-to-ahead-of-line" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("global-set-key" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("insert-for-yank-1" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("insert" .
+((("color-theme-is-global" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("load" .
+   [1 0 0 0])
+  ("custom" .
    [0 0 0 0 0 1])
-  ("kill-region" .
-   [0 0 0 0 0 0 0 1 1 0 0])
-  ("set-mark" .
-   [0 0 0 0 0 0 0 2])
-  ("get-buffer-create" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("add-" .
-   [0 0 0 1])
-  ("append" .
-   [0 0 0 0 0 1])
-  ("apply" .
-   [0 0 0 0 1])
-  ("file-name-directory" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("el-get-git-clone" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("el-get-git-" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("el-get" .
-   [0 0 0 0 0 1])
-  (":tag" .
-   [0 0 0 1])
-  ("info-link" .
-   [1 0 0 0 0 0 0 0 0])
-  ("tool-bar-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("multi-term-dedicated-select-after-open-p" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("multi-term-dedicated-select" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("multi-term-de" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ses-mode" .
-   [0 0 1 0 0 0 0 0])
-  ("setq" .
-   [1 0 2 0])
-  ("buildConnectionString" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("iter" .
-   [0 0 0 1])
-  ("params" .
-   [0 0 0 0 0 1])
-  ("proxy" .
-   [0 0 0 1 0])
-  ("HTMLParser" .
-   [0 0 0 0 0 0 0 0 0 3])
-  ("MyHTMLParser" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("open" .
-   [0 0 0 1])
-  ("class" .
-   [0 0 0 0 2])
-  ("import" .
-   [0 0 0 0 0 7])
-  ("flush-lines" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("asm" .
-   [0 0 3])
-  ("cout" .
-   [1 0 0 1])
-  ("_Bool" .
-   [0 0 0 0 4])
-  ("glutTimerFunc" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("inc" .
-   [0 0 1])
-  ("glutInitDisplayMode" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("glutCreateMenu" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("glutInitWindowSize" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("OpenGL" .
-   [0 0 0 0 0 1])
-  ("(const char *title)" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("glutCreateWindow" .
-   [8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
-  ("glutCreate" .
-   [1 0 0 0 1 0 0 0 0 3])
-  ("(int *argcp, char **argv)" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("glutInit" .
-   [12 0 0 0 0 1 0 6])
-  ("GLUT" .
-   [14 0 0 16])
-  ("NSMutableString" .
-   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0])
-  ("arrayWithCapacity" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("NSMutableArray" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 1])
-  ("(NSStringEncoding)" .
-   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("(" .
-   [1])
-  ("(NSUInteger)" .
-   [0 2 0 0 0 0 0 0 0 0 0 1])
-  ("stringWithCString" .
-   [0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1])
-  ("struct" .
-   [0 0 0 0 0 2])
-  ("NSString" .
-   [1 0 0 0 0 0 0 2])
-  ("NSSize" .
-   [3 0 0 1 0 0])
-  ("float" .
-   [0 0 0 0 4])
-  ("main" .
-   [0 0 0 3])
-  ("print" .
-   [0 0 0 0 2])
-  ("interactive" .
-   [0 0 0 0 0 2 0 1 0 0 2])
-  ("multiply-by-SEVEN" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("defun" .
-   [1 0 0 0 4])
-  ("point" .
-   [0 0 0 0 4])
-  ("buffer-string" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("buffer-size" .
-   [1 0 0 0 0 0 0 0 0 0 2])
-  ("other-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("printf" .
-   [0 0 0 0 0 3])
-  ("scanf" .
-   [9 0 0 0 9])
-  ("sqlite3_exec" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("SQLite" .
-   [4 0 0 0 0 1])
-  ("abs" .
-   [0 1 0])
-  ("URRootViewController" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("UIApplication" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("sharedApplication" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("value" .
-   [1 0 0 0 1])
-  ("def" .
-   [0 1 0])
-  ("for" .
-   [0 0 1])
-  ("product" .
+  ("require" .
+   [0 0 0 0 0 0 1])
+  ("provide" .
+   [0 0 0 0 0 0 1])
+  ("newmark" .
    [0 0 0 0 0 0 2])
-  ("maxnumber" .
-   [0 0 0 0 0 0 0 0 3])
-  ("mac_item" .
-   [0 0 0 0 0 0 0 3])
-  ("cacalute" .
-   [0 0 0 0 0 0 0 1])
-  ("max_item" .
-   [0 0 0 0 0 0 0 1])
-  ("max" .
-   [0 0 1])
-  ("glutInitWindowPosition" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("while" .
-   [0 0 0 0 3])
-  ("default" .
-   [0 0 0 0 0 0 4])
-  ("glutWireCube" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("gxiaoc@gmail.com" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("string" .
-   [0 0 0 0 0 1])
-  ("set" .
-   [0 0 1])
-  ("buffer" .
-   [0 0 0 0 0 4])
-  ("semantic-mode" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 3])
-  ("add-to-" .
-   [0 0 0 0 0 0 1])
-  ("add-hook" .
-   [0 0 0 0 2 0 0 2])
-  ("c-mode-common-hook" .
-   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
-  ("cc-mode" .
-   [6 0 0 0 0 0 1])
-  ("py-mode-hook" .
-   [0 0 1 0 0 1 0 0 0 0 0 0])
-  ("lisp-mode-hook" .
-   [0 0 0 1 1 0 0 0 0 0 0 0 0 0])
-  ("emacs-lisp-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0])
-  ("lambda" .
-   [0 0 0 0 0 4])
-  ("semantic" .
-   [0 0 0 0 0 0 0 1])
-  ("or" .
-   [1 0])
-  ("bufferp" .
-   [0 0 0 0 0 0 1])
-  ("get-buffer" .
+  ("insert-buffer-substring" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("insert-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("start" .
+   [0 0 0 2 0])
+  ("set-buffer" .
    [0 0 0 0 0 0 0 0 0 1])
   ("save-excursion" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 2])
-  ("set-buffer" .
+  ("get-buffer" .
    [0 0 0 0 0 0 0 0 0 1])
-  ("start" .
-   [0 0 0 2 0])
-  ("insert-buffer" .
+  ("bufferp" .
+   [0 0 0 0 0 0 1])
+  ("or" .
+   [1 0])
+  ("semantic" .
+   [0 0 0 0 0 0 0 1])
+  ("lambda" .
+   [0 0 0 0 0 4])
+  ("emacs-lisp-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0])
+  ("lisp-mode-hook" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("py-mode-hook" .
+   [0 0 1 0 0 1 0 0 0 0 0 0])
+  ("cc-mode" .
+   [6 0 0 0 0 0 1])
+  ("c-mode-common-hook" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 0 2 0 0 2])
+  ("add-to-" .
+   [0 0 0 0 0 0 1])
+  ("semantic-mode" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 3])
+  ("buffer" .
+   [0 0 0 0 0 4])
+  ("set" .
+   [0 0 1])
+  ("string" .
+   [0 0 0 0 0 1])
+  ("gxiaoc@gmail.com" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glutWireCube" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("default" .
+   [0 0 0 0 0 0 4])
+  ("while" .
+   [0 0 0 0 3])
+  ("glutInitWindowPosition" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("max" .
+   [0 0 1])
+  ("max_item" .
+   [0 0 0 0 0 0 0 1])
+  ("cacalute" .
+   [0 0 0 0 0 0 0 1])
+  ("mac_item" .
+   [0 0 0 0 0 0 0 3])
+  ("maxnumber" .
+   [0 0 0 0 0 0 0 0 3])
+  ("product" .
+   [0 0 0 0 0 0 2])
+  ("for" .
+   [0 0 1])
+  ("def" .
+   [0 1 0])
+  ("value" .
+   [1 0 0 0 1])
+  ("sharedApplication" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("UIApplication" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("insert-buffer-substring" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("newmark" .
-   [0 0 0 0 0 0 2])))
+  ("URRootViewController" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("abs" .
+   [0 1 0])
+  ("SQLite" .
+   [4 0 0 0 0 1])
+  ("sqlite3_exec" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("scanf" .
+   [9 0 0 0 9])
+  ("printf" .
+   [0 0 0 0 0 3])
+  ("other-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("buffer-size" .
+   [1 0 0 0 0 0 0 0 0 0 2])
+  ("buffer-string" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("point" .
+   [0 0 0 0 4])
+  ("defun" .
+   [1 0 0 0 4])
+  ("multiply-by-SEVEN" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 2 0 1 0 0 2])
+  ("print" .
+   [0 0 0 0 2])
+  ("main" .
+   [0 0 0 3])
+  ("float" .
+   [0 0 0 0 4])
+  ("NSSize" .
+   [3 0 0 1 0 0])
+  ("NSString" .
+   [1 0 0 0 0 0 0 2])
+  ("struct" .
+   [0 0 0 0 0 2])
+  ("stringWithCString" .
+   [0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1])
+  ("(NSUInteger)" .
+   [0 2 0 0 0 0 0 0 0 0 0 1])
+  ("(" .
+   [1])
+  ("(NSStringEncoding)" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NSMutableArray" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 1])
+  ("arrayWithCapacity" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NSMutableString" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0])
+  ("GLUT" .
+   [14 0 0 16])
+  ("glutInit" .
+   [12 0 0 0 0 1 0 6])
+  ("(int *argcp, char **argv)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glutCreate" .
+   [1 0 0 0 1 0 0 0 0 3])
+  ("glutCreateWindow" .
+   [8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("(const char *title)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("OpenGL" .
+   [0 0 0 0 0 1])
+  ("glutInitWindowSize" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("glutCreateMenu" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("glutInitDisplayMode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("inc" .
+   [0 0 1])
+  ("glutTimerFunc" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("_Bool" .
+   [0 0 0 0 4])
+  ("cout" .
+   [1 0 0 1])
+  ("asm" .
+   [0 0 3])
+  ("flush-lines" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("import" .
+   [0 0 0 0 0 7])
+  ("class" .
+   [0 0 0 0 2])
+  ("open" .
+   [0 0 0 1])
+  ("MyHTMLParser" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("HTMLParser" .
+   [0 0 0 0 0 0 0 0 0 3])
+  ("proxy" .
+   [0 0 0 1 0])
+  ("params" .
+   [0 0 0 0 0 1])
+  ("iter" .
+   [0 0 0 1])
+  ("buildConnectionString" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [1 0 2 0])
+  ("ses-mode" .
+   [0 0 1 0 0 0 0 0])
+  ("multi-term-de" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("multi-term-dedicated-select" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("multi-term-dedicated-select-after-open-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("tool-bar-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("info-link" .
+   [1 0 0 0 0 0 0 0 0])
+  (":tag" .
+   [0 0 0 1])
+  ("el-get" .
+   [0 0 0 0 0 1])
+  ("el-get-git-" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("el-get-git-clone" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("file-name-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("apply" .
+   [0 0 0 0 1])
+  ("append" .
+   [0 0 0 0 0 1])
+  ("add-" .
+   [0 0 0 1])
+  ("get-buffer-create" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("set-mark" .
+   [0 0 0 0 0 0 0 2])
+  ("kill-region" .
+   [0 0 0 0 0 0 0 1 1 0 0])
+  ("insert" .
+   [0 0 0 0 0 1])
+  ("insert-for-yank-1" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("global-set-key" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("mark-set-to-ahead-of-line" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kill-the-string-before-current-point" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))

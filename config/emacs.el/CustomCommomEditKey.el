@@ -5,3 +5,5 @@
   (kill-region (point) end))
 
 (global-set-key (kbd "S-C-k") 'kill-the-string-before-current-point)
+
+(provide 'CustomKey)
