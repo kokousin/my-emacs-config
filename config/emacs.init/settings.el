@@ -18,7 +18,7 @@
 (setq tab-width 4)
 (setq c-basic-offset 4)
 
-(mouse-avoidance-mode 'animate)
+;;(mouse-avoidance-mode 'animate)
 
 (add-to-list 'default-frame-alist '(left . 0))
 (add-to-list 'default-frame-alist '(top . 0))
