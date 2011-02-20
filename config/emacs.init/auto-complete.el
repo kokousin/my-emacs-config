@@ -21,7 +21,3 @@
 (yas/initialize)
 (setq yas/indent-line 'fixed)
 (yas/load-directory "~/.emacs.d/el-get/yasnippet/snippets")
-
-;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/el-get/auto-complete-extension"))
-;;(require 'auto-complete-extension)
-

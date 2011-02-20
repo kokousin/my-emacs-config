@@ -10,7 +10,6 @@
 		package
 		auto-complete
 		auto-complete-clang
-		auto-complete-extension
 ;;		color-theme-twilight
         color-theme-chocolate-rain
 		color-theme
@@ -19,6 +18,7 @@
 		pymacs
 		python-mode
         multi-term
+        cedet
     )
 )
 (el-get)
