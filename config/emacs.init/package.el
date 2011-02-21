@@ -18,6 +18,8 @@
 		pymacs
 		python-mode
         multi-term
+        slime
+        ac-slime
         cedet
     )
 )
