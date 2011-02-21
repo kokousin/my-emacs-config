@@ -20,7 +20,7 @@
         multi-term
         slime
         ac-slime
-        cedet
+        ;; cedet
     )
 )
 (el-get)
