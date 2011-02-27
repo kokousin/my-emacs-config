@@ -1,5 +1,6 @@
 ;; language environment
 (setq current-language-environment "UTF-8")
+
 (setq locale-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
@@ -28,3 +29,8 @@
 ;; custom key
 (load "~/.emacs.d/config/emacs.el/CustomCommomEditKey.el")
 (require 'CustomKey)
+
+;; disable toolbar
+(tool-bar-mode 0)
+
+(setq-default make-backup-files nil)
