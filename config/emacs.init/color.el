@@ -3,8 +3,9 @@
 (color-theme-initialize)
 ;;(load-file "~/.emacs.d/el-get/color-theme-twilight/color-theme-twilight.el")
 (load-file "~/.emacs.d/el-get/color-theme-chocolate-rain/color-theme-chocolate-rain.el")
-
+(load-file "~/.emacs.d/el-get/color-theme-almost-monokai/color-theme-almost-monokai.el")
 ;;(color-theme-twilight)
-;;(color-theme-charcoal-black)
-;;(color-theme-tango-2)
-(color-theme-chocolate-rain)
+(color-theme-charcoal-black)
+;;(color-theme-almost-monokai)
+
+;;(color-theme-chocolate-rain)

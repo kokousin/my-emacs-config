@@ -24,7 +24,7 @@
 (add-to-list 'default-frame-alist '(left . 0))
 (add-to-list 'default-frame-alist '(top . 0))
 (add-to-list 'default-frame-alist '(height . 999))
-(add-to-list 'default-frame-alist '(width . 999))
+(add-to-list 'default-frame-alist '(width . 160))
 
 ;; custom key
 (load "~/.emacs.d/config/emacs.el/CustomCommomEditKey.el")

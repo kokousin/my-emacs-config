@@ -11,6 +11,7 @@
 		auto-complete
 		auto-complete-clang
 ;;		color-theme-twilight
+        color-theme-almost-monokai
         color-theme-chocolate-rain
 		color-theme
 		yasnippet
@@ -20,7 +21,8 @@
         multi-term
 ;;        slime
 ;;        ac-slime
-        cedet
+;;        cedet
+        ecb
     )
 )
 (el-get)
