@@ -11,6 +11,8 @@
 (global-semantic-show-unmatched-syntax-mode 1)
 (global-semantic-show-parser-state-mode 1)
 
+(setq semanticdb-default-save-directory "~/.emacs.d/semanticdb")
+
 (defconst user-include-dirs
   (list ".." "../include" "../inc" "../common" "../public"
         "../.." "../../include" "../../inc" "../../common" "../../public"))

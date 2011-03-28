@@ -16,8 +16,8 @@
 		color-theme
 		yasnippet
 ;;		ipython
-		pymacs
-		python-mode
+;;		pymacs
+;;		python-mode
         multi-term
 ;;        slime
 ;;        ac-slime

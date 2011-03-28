@@ -1,6 +1,0 @@
-;;(require 'tabbar)
-;;(tabbar-mode)
-;;(global-set-key (kbd "s-{") 'tabbar-backward-group)
-;;(global-set-key (kbd "s-}") 'tabbar-forward-group)
-;;(global-set-key (kbd "s-[") 'tabbar-backward)
-;;(global-set-key (kbd "s-]") 'tabbar-forward)
