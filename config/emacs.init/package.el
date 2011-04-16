@@ -19,10 +19,11 @@
 ;;		pymacs
 ;;		python-mode
         multi-term
-;;        slime
-;;        ac-slime
-;;        cedet
+;;      slime
+;;      ac-slime
+;;      cedet
         ecb
+        maxframe
     )
 )
 (el-get)
